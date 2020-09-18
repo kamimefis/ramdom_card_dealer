@@ -1,0 +1,33 @@
+body{
+    background-color: green;  
+}
+.card{
+    height: 570px;
+    width: 400px;
+    background-color: white;
+    border: black;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 33%;
+}
+.heart-card{
+    color: red;
+}
+#top-suit{
+    height: 100px;
+    font-size: 120px;
+    padding-left: 5%;
+    padding-right: 70%;
+}
+#bottom-suit{
+    height: 100px;
+    font-size: 120px;
+    float: right;
+    padding-left: 79%;
+    padding-right: 5%;
+}
+#random-number{
+    height: 200px;
+    font-size: 180px;
+    padding: 20% 33% 11% 35%;   
+}
