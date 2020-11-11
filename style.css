@@ -1,14 +1,19 @@
 body{
     background-color: green;  
+    position: relative;
+}
+.container{
+    position: absolute;
+    margin-left: 500px;
+    margin-right: auto;
 }
 .card{
-    height: 570px;
-    width: 400px;
+    height: 500px;
+    width: 340px;
     background-color: white;
     border: black;
     border-radius: 5%;
-    margin-top: 20px;
-    margin-left: 33%;
+    margin-top: 30px;
 }
 .heart-card{
     color: red;
@@ -16,18 +21,23 @@ body{
 #top-suit{
     height: 100px;
     font-size: 120px;
-    padding-left: 5%;
-    padding-right: 70%;
+    margin: 10px;
 }
 #bottom-suit{
     height: 100px;
     font-size: 120px;
-    float: right;
-    padding-left: 79%;
-    padding-right: 5%;
+    transform: rotate(180deg);
+    margin: 10px;
 }
 #random-number{
     height: 200px;
     font-size: 180px;
-    padding: 20% 33% 11% 35%;   
+    text-align: center;
+    margin: 50px auto;
+}
+
+h2{
+    color: grey;
+    margin: 10px 33%;
+    text-align: center;
 }

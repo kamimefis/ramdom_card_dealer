@@ -12,9 +12,9 @@ let randomSuit = pickACard(suits);
 
 
 //generando el DOM con los elementos de la carta para cambiar sus valores y colores según pinta:
-let topSuit= document.querySelector('#top-suit');
-let bottomSuit= document.querySelector('#bottom-suit');
-let cardNum= document.querySelector('#random-number')
+let topSuit = document.querySelector('#top-suit');
+let bottomSuit = document.querySelector('#bottom-suit');
+let cardNum = document.querySelector('#random-number')
 
 topSuit.innerHTML = randomSuit;
 if (randomSuit === '&hearts;' || randomSuit === '&diams;') topSuit.classList.add("heart-card");
@@ -23,6 +23,6 @@ else topSuit.classList.remove("heart-card");
 cardNum.innerHTML = randomValue;
 
 bottomSuit.innerHTML = randomSuit;
- if (randomSuit === '&hearts;' || randomSuit === '&diams;') bottomSuit.classList.add("heart-card");
- else bottomSuit.classList.remove("heart-card");
+if (randomSuit === '&hearts;' || randomSuit === '&diams;') bottomSuit.classList.add("heart-card");
+else bottomSuit.classList.remove("heart-card");
 
